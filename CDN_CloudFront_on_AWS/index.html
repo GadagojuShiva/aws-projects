@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudFront Message</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        p {
+            color: #641E16;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .route-map {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cloud {
+            width: 100px;
+            height: 100px;
+            background-color: #A93226;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .arrow {
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border-top: 2px solid #A93226;
+            border-right: 2px solid #A93226;
+            transform: rotate(45deg);
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <p>Hi, From Your Nearest <strong>CloudFront Edge Location</strong></p>
+    <div class="route-map">
+
+        <div class="cloud">S3</div>
+        <div class="arrow"></div>
+        <div class="cloud">CloudFront</div>
+        <div class="arrow"></div>
+        <div class="cloud">Edge <br>Location</div>
+        <div class="arrow"></div>
+        <div class="cloud">User/You</div>
+    </div>
+	<h2>Above Route Map Shows How You are getting acces to this webpage</h2>
+</body>
+</html>
