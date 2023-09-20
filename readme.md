@@ -56,6 +56,16 @@ Here are some of the AWS projects you will find in this repository:
 
 _Feel free to explore these projects, and follow the links to the project folders for more details and instructions._
 
+## Note: Cloning the Repository
+
+You are welcome to clone this repository to explore and use the projects and code for your personal learning and experimentation. However, please note the following:
+
+- **Do Not Push Changes to This Repository:** This repository is intended for sharing and showcasing projects. Please refrain from pushing any changes or modifications to this repository directly.
+
+If you wish to contribute or make changes to any project, we encourage you to fork this repository, make your changes in your forked repository, and then create a pull request for review and consideration.
+
+Thank you for your understanding and cooperation!
+
 
 ## Getting Started
 
