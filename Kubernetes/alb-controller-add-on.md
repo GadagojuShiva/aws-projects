@@ -1,4 +1,4 @@
-# How to setup alb add on
+# Setup alb add on
 
 Download IAM policy
 
@@ -26,7 +26,7 @@ eksctl create iamserviceaccount \
   --approve
 ```
 
-## Deploy ALB controller
+## Deploying ALB controller
 
 Add helm repo
 
