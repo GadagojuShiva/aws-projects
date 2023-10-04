@@ -1,4 +1,4 @@
-# How to setup alb add on
+# Setup alb add on
 
 Download IAM policy
 
@@ -26,7 +26,7 @@ eksctl create iamserviceaccount \
   --approve
 ```
 
-## Deploy ALB controller
+## Deploying ALB controller
 
 Add helm repo
 
@@ -43,8 +43,7 @@ helm repo update eks
 Install
 
 ```
-helm install aws-load-balancer-controller eks/aws-load-balancer-controller \            
-  -n kube-system \
+helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n kube-system \
   --set clusterName=<your-cluster-name> \
   --set serviceAccount.create=false \
   --set serviceAccount.name=aws-load-balancer-controller \
